@@ -1,0 +1,15 @@
+node_modules/
+*.exe
+*.exe~
+*.dll
+*.zip
+logs/
+zapi.log
+zapi.pid
+*.test
+server
+zapi-go
+zapi-go-linux
+zapi-go-win.exe
+zapi-go-local
+static/dist/

@@ -1,0 +1,1 @@
+import{x as a}from"./index-rUstgxu7.js";const u={list(){return a.get("/api/groups").then(t=>t.data)},create(t){return a.post("/api/groups",t).then(e=>e.data)},update(t,e){return a.put(`/api/groups/${t}`,e).then(r=>r.data)},delete(t){return a.delete(`/api/groups/${t}`).then(e=>e.data)}};export{u as g};

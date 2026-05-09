@@ -1,0 +1,1 @@
+import{y as o}from"./index-CbaM1REv.js";const e={list(t){return o.get("/api/logs",{params:t}).then(a=>a.data)},operatorLogs(t){return o.get("/api/logs/operator",{params:t}).then(a=>a.data)},myLogs(t){return o.get("/api/my/logs",{params:t}).then(a=>a.data)}};export{e as l};
